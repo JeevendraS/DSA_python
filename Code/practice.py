@@ -47,7 +47,8 @@ class SLL:
             temp = self.start
             while temp.next.next is not None:
                 temp = temp.next 
-            temp.next = None       
+            temp.next = None 
+                  
     def delete_item(self,data):
         if self.start is None:
             pass
