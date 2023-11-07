@@ -1,0 +1,2 @@
+what is list?
+list is  a linear collection of data items also known as list Item.
