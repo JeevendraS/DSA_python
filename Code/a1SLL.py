@@ -84,7 +84,7 @@ class SLLIterator:
       
       
           
-
+'''
 mylist = SLL()
 mylist.insert_at_start(40)
 mylist.insert_at_start(50)
@@ -100,4 +100,4 @@ mylist.insert_at_last(70)
 for i in mylist:
     print(i)
 
-        
+'''        
