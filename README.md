@@ -13,3 +13,28 @@ Disadvantages of Doubly Linked Lists:
 Increased Memory Overhead: The extra pointer in each node increases the memory overhead compared to singly linked lists.
 Complexity: Maintaining the links between nodes adds complexity to the implementation and can potentially lead to more errors.
 Doubly linked lists are commonly used in scenarios where efficient bidirectional traversal and frequent insertions and deletions are required.
+
+
+what is singley linked list??
+A singly linked list is a fundamental data structure in computer science and programming. It consists of a sequence of elements, where each element points to the next one in the sequence.
+
+Structure:-
+Each element in a singly linked list is called a node.
+Each node contains two fields: data and a reference to the next node in the sequence.
+Characteristics:-
+It is a linear data structure.
+It is dynamic in nature, meaning elements can be added or removed easily.
+It does not have a fixed size, unlike arrays.
+Operations:-
+Insertion: Adding a new node at the beginning, end, or middle of the list.
+Deletion: Removing a node from the list.
+Traversal: Accessing each node in the list sequentially.
+Searching: Finding a specific element in the list.
+Advantages:-
+Efficient insertion and deletion operations, especially at the beginning of the list.
+Dynamic size.
+Disadvantages:-
+Inefficient random access, as elements can only be accessed sequentially.
+Requires more memory than arrays due to the overhead of storing the next node reference.
+Singly linked lists are commonly used as the underlying data structure for other abstract data types such as stacks, queues, and graphs.
+
