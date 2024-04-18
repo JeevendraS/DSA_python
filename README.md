@@ -38,3 +38,12 @@ Inefficient random access, as elements can only be accessed sequentially.
 Requires more memory than arrays due to the overhead of storing the next node reference.
 Singly linked lists are commonly used as the underlying data structure for other abstract data types such as stacks, queues, and graphs.
 
+
+ 
+What is circular linked list 
+
+A circular linked list is a variation of a linked list where the last node points back to the first node, creating a circular structure. This means there's no "null" or "None" pointer at the end, unlike in a standard linked list. It's useful for applications where you need continuous access to elements or want to traverse the list in a loop.
+
+
+
+
