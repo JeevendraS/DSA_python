@@ -45,5 +45,7 @@ What is circular linked list
 A circular linked list is a variation of a linked list where the last node points back to the first node, creating a circular structure. This means there's no "null" or "None" pointer at the end, unlike in a standard linked list. It's useful for applications where you need continuous access to elements or want to traverse the list in a loop.
 
 
+what is heap?
 
+A heap is a specialized tree-based data structure that satisfies the heap property. In a min-heap, for every node \( i \), the value of the parent node is less than or equal to the value of its children nodes. In a max-heap, the value of the parent node is greater than or equal to the value of its children nodes. Heaps are commonly used to implement priority queues and heapsort algorithms.
 
