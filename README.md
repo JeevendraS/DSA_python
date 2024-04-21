@@ -49,3 +49,25 @@ what is heap?
 
 A heap is a specialized tree-based data structure that satisfies the heap property. In a min-heap, for every node \( i \), the value of the parent node is less than or equal to the value of its children nodes. In a max-heap, the value of the parent node is greater than or equal to the value of its children nodes. Heaps are commonly used to implement priority queues and heapsort algorithms.
 
+what is binary tree structure 
+A binary tree is a hierarchical data structure in which each node has at most two children, referred to as the left child and the right child. This tree structure is commonly used in computer science for organizing and storing data efficiently.
+Key Characteristics of a Binary Tree Structure
+
+Root Node: The topmost node in the tree from which all other nodes are descended.
+Parent and Child Nodes: Each node (excluding the root) has one parent node and can have at most two child nodes.
+Left and Right Child: The two child nodes are typically designated as the left child and the right child.
+Traversal: Binary trees can be traversed in different ways, such as in-order, pre-order, and post-order traversal.
+
+Types of Binary Trees
+
+Full Binary Tree: A binary tree in which each node has either 0 or 2 children.
+Complete Binary Tree: A binary tree in which all levels are completely filled except possibly for the last level, which is filled from left to right.
+Perfect Binary Tree: A binary tree in which all interior nodes have two children and all leaves have the same depth or same level.
+
+Applications of Binary Trees
+
+Data Storage: Binary trees are used in databases and file systems for efficient storage and retrieval of data.
+Sorting and Searching: Binary search trees are used for quick searching and sorting of data.
+Expression Trees: Binary trees are used to represent expressions in compilers and evaluation of arithmetic expressions.
+
+In summary, a binary tree structure is a fundamental concept in computer science and is widely used for organizing and manipulating data efficiently.
