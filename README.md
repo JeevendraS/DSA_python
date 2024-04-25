@@ -71,3 +71,14 @@ Sorting and Searching: Binary search trees are used for quick searching and sort
 Expression Trees: Binary trees are used to represent expressions in compilers and evaluation of arithmetic expressions.
 
 In summary, a binary tree structure is a fundamental concept in computer science and is widely used for organizing and manipulating data efficiently.
+
+
+What is BFS and DFS ?
+
+BFS (Breadth-First Search) and DFS (Depth-First Search) are algorithms used for traversing or searching tree or graph data structures. 
+
+In BFS, you start at the root (or another specified node) and explore all of its neighboring nodes at the current depth before moving on to the nodes at the next depth level. This means it explores the nodes in a level-by-level manner.
+
+In DFS, you start at the root (or another specified node) and explore as far as possible along each branch before backtracking. This means it explores as deeply as possible along each branch before backtracking.
+
+Both algorithms have different applications and advantages depending on the problem at hand.
