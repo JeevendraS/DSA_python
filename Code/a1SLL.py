@@ -5,9 +5,8 @@ class Node:
         self.item = item
         self.next = next
 class SLL:
-    def __init__(self,start=None):
-        n = Node(start)
-        self.start = n
+    def __init__(self):
+        self.start = None
     def is_empty(self):
         return self.start==None 
     def insert_at_start(self, data):
@@ -36,7 +35,7 @@ class SLL:
     def printlist(self):
         temp = self.start
         while temp is not None:
-            print(temp.item, end=' ')
+            print(temp.item)
             temp = temp.next
     def delete_first(self):
         if self.start is not None:
@@ -54,9 +53,6 @@ class SLL:
     def delete_item(self,data):
         if self.start is None:
             pass
-        elif self.start.next is None:
-            if self.start.item ==data:
-                self.start = None
         else:
             temp = self.start
             if temp.item==data:
@@ -73,7 +69,7 @@ class SLL:
 class SLLIterator:
     def __init__(self,start):
         self.current = start
-    def __iter__(self):
+    def __iter__(self): 
         return self
     def __next__(self):
         if not self.current:
@@ -84,20 +80,20 @@ class SLLIterator:
       
       
           
-'''
-mylist = SLL()
-mylist.insert_at_start(40)
-mylist.insert_at_start(50)
-mylist.insert_at_last(20)
-mylist.insert_at_last(60)
-mylist.insert_at_last(70)
-# mylist.insert_after(11,mylist.search(40))
-# mylist.delete_item(40)
-# mylist.delete_first()
-# mylist.delete_last()
-# mylist.delete_last()
-# mylist.printlist()
-for i in mylist:
-    print(i)
 
-'''        
+m = SLL()
+m.insert_at_start(30)
+m.insert_at_start(20)
+m.insert_at_start(10)
+m.insert_at_last(90)
+m.insert_at_last(80)
+m.insert_at_last(70)
+m.insert_at_last(60)
+
+
+# m.printlist()
+m.delete_item(10)
+print("hello")
+m.printlist()
+
+     

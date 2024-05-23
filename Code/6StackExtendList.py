@@ -17,6 +17,8 @@ class Stack(list):
         return len(self) 
     def insert(self,index,data):
         raise AttributeError("No attribute 'insert' in stack" )
+    def remove(self, value):
+        raise AttributeError("No attribute 'insert' in stack" )
 
 stack = Stack()
 # stack.insert(0,11)  
@@ -25,7 +27,6 @@ stack.push(13)
 stack.push(14)
 stack.push(15)
 stack.push(16)
-# stack.pop()
-print(stack.peek())
-print(stack.size())
-print()  
+print(stack) 
+stack.remove(15)
+print(stack)

@@ -47,13 +47,13 @@ class Deque:
             self.rear.next = None  
         self.item_count-=1 
     def get_front(self):
-        if not self.is_empty():
+        if not self.is_empty(): 
             return self.front.item          
     def get_rear(self):
         if not self.is_empty():
             return self.rear.item
     def size(self):
-        return self.item_count 
+        return self.item_count  
 
 d = Deque()
 d.insert_front(10)             

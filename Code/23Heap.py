@@ -6,7 +6,7 @@ class Heap:
     def __init__(self):
         self.heap = []
 
-    def createHeap(self, lst):
+    def createHeap(self, lst): 
         for e in lst:
             self.insert(e)
 

@@ -22,6 +22,7 @@ p.push(130,8)
 p.push(100,3)               
 p.push(70,1)               
 p.push(90,20)
+
 for i in range(len(p.items)):
     print(p.pop())
 
