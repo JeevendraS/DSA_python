@@ -10,11 +10,12 @@ pair of disjoint binary trees T1 and T2
 
 Any node in the binary tree has either 0,1,2 child nodes.
 
+
 '''
 
 
 #+++++++++++++++++++++++++++++++ Binary Search Tree ++++++++++++++++++++++++++++++++++++++++++++++++++
-'''
+''' 
 Binary search Tree is a binary tree with the value at node N is greater than every value in the left subtree
 of N and is less than every value in the right subtree of N
 
