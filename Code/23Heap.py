@@ -9,7 +9,7 @@ class Heap:
     def createHeap(self, lst): 
         for e in lst:
             self.insert(e)
-
+   
     def insert(self, e):
         index = len(self.heap)
         parentIndex = (index - 1) // 2
@@ -86,5 +86,7 @@ class EmptyHeapException(Exception):
 
 le = [34, 23, 21, 3, 45, 67, 78, 34]
 h = Heap()
-print("Original Heap:", h.heap)
-print("Heap Sort:", h.heapSort(le))
+# print("Original Heap:", h.heap)
+# print("Heap Sort:", h.heapSort(le))
+h.createHeap(le)
+print(h.top)

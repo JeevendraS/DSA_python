@@ -2,7 +2,7 @@
 # list = [2,3,3,4,5,342,23,43]
 # list = [1,2,3,4,5,6,7,9,8]
 # list = [8,7,6,5,4,3,2,1]
-list = [5,4,2,45,7,68,56,345,23,234,32,3,11,2,323,22,2]
+list = [5,4,4,4,4,2,45,7,68,56,345,23,234,32,3,11,2,323,22,2]
 
 class Sort:
     def __init__(self,list):
@@ -42,7 +42,7 @@ class Sort:
             return self.list 
         else:
             pivot = self.list[0]
-            greater = [x for x in self.list[1:] if x>pivot]
+            greater = [x for x in self.list[1:] if x>=pivot]
             lesser = [x for x in self.list[1:] if x<pivot]
             print(2)
             return Sort(lesser).Quick_sort()+[pivot]+Sort(greater).Quick_sort()
@@ -88,8 +88,8 @@ class Sort:
 # l.Insertion_sort()             
 # print(li)
 l = Sort(list) 
-# print(l.Quick_sort()) 
-print    (l.Merge_sort())
+print(l.Quick_sort()) 
+# print    (l.Merge_sort())
 
             
 

@@ -34,9 +34,10 @@ class Graph:
             print(n)
             for i in self.adj_list[n]:
                 if visited[i[0]] == False:
-                    # print(i)
                     Q.enqueue(i[0])
                     visited[i[0]] = True
+
+
 g = Graph(9)
 g.add_edge(0,1)             
 g.add_edge(1,2)             
